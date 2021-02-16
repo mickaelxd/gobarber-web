@@ -6,7 +6,7 @@ import Logo from '../../assets/icons/logo.svg';
 import Input from '../../components/Input';
 import Button from '../../components/Button';
 
-const SignIn: React.FC = () => {
+const Login: React.FC = () => {
   return (
     <Container>
       <Content>
@@ -27,7 +27,7 @@ const SignIn: React.FC = () => {
           <a href="forgot">Esqueci minha senha</a>
         </form>
 
-        <a href="login">
+        <a href="register">
           <FiLogIn /> Criar conta
         </a>
       </Content>
@@ -36,4 +36,4 @@ const SignIn: React.FC = () => {
   );
 };
 
-export default SignIn;
+export default Login;
