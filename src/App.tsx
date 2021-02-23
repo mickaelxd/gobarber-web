@@ -8,8 +8,8 @@ const App: React.FC = () => {
   return (
     <>
       <GlobalStyle />
-      <Register />
-      {/* <Login /> */}
+      {/* <Register /> */}
+      <Login />
     </>
   );
 };
